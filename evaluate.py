@@ -318,7 +318,7 @@ def eval_adapter_prompt_network(args, dataset_path, dataset_names, image_extensi
     print("*************")
     print("Evaluating Adapter + Prompt Tuning Method!")
 
-    model_names = ['/content/diffusion/train_outputs/improve_2epochs/']
+    model_names = ['/content/diffusion2/train_outputs/improve_2epochs/']
 
     
     model_evaluations = {}
